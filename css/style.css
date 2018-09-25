@@ -35,7 +35,17 @@ header{
     margin-top: 40px; 
     color: white;
 }
+.footer a{
+    text-decoration: none;
+    color: white;
+    padding:0 10px 0 10px; 
+}
 .pie{
+    padding-top: 40px; 
     background: #343a40;
     color: white;
+}
+#mapid { 
+    height: 300px; 
+    width: 100%;
 }

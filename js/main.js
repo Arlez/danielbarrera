@@ -1,3 +1,12 @@
+$(function(){
+    var map = L.map('mapid').setView([-33.440753, -70.65136], 13);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+});
+$(function(){
+
 window.sr = ScrollReveal();
 sr.reveal('.navbar',{
     duration: 2000,
@@ -35,4 +44,5 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             behavior: 'smooth'
         });
     });
+});
 });
