@@ -46,3 +46,27 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 });
+
+
+$(function(){
+    function frases_alea(){
+
+        frases = new Array();
+        
+        frases[0] = "<a href='http://www.eurolloyd.es/seguros/seguros-de-coche/calcula-el-precio.html' onclick='openBack(this.href);return false;'>Consulta y beneficiate de nuestras nuevas tarifas para el seguro de tu coche</a>";
+        frases[1] = "En Eurolloyd aplicamos los descuentos de tu seguro actual en nuestros precios";
+        frases[2] = "Si quieres seguridad para t&iacute; y los tuyos, <a href='http://www.eurolloyd.es/seguros/seguros-de-accidentes/precios-y-coberturas.html' onclick='openBack(this.href);return false;'>consulta nuestro seguro de accidentes para el motorista.</a>";
+        frases[3] = "Si te interesa nuestro precio, contrata tu seguro directamente desde nuestra p·gina web";
+        
+        aleatorio=Math.floor(Math.random()*4);
+        
+        return frases[aleatorio];
+        
+        }
+        onload=function(){
+            document.getElementById('algo').innerHTML = frases_alea();
+            setInterval(function(){
+                document.getElementById('algo').innerHTML=frases_alea()
+            ;},5000)
+        }
+});
