@@ -55,7 +55,7 @@ $(function(){
     sr.reveal('.titulos',{
         duration: 2000,
         origin: 'bottom',
-        delay: 1000
+        delay: 500
     });
 
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
