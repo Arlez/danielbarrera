@@ -30,7 +30,7 @@ $(function(){
         origin: 'bottom',
         delay: 1000
     });
-    sr.reveal('#testimonial',{
+    sr.reveal('.testimonial',{
         duration: 2000,
         origin: 'left',
         distance: '500px'
@@ -51,6 +51,11 @@ $(function(){
         duration: 2000,
         origin: 'right',
         distance: '500px'
+    });
+    sr.reveal('.titulos',{
+        duration: 2000,
+        origin: 'bottom',
+        delay: 1000
     });
 
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
