@@ -35,13 +35,19 @@
                         <a class="nav-link" href="#header">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#testimonial">Acerca de mí</a>
+                        <a class="nav-link" href="#tecnologias">Tecnologías</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#informacion">Información</a>
+                        <a class="nav-link" href="#frontend">Fontend</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#backend">Backend</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:history.go(-1)">Volver</a>
                     </li>
                 </ul>
             </div>
@@ -49,23 +55,13 @@
     </div>
 
     <!--header-->
-    <header id="header">
+    <header id="header" class="aparecerabajo">
         <div class="container">
             <div class="row my-5">
-                <div class="col-md-7">
-                    <div class="header-content-left">
-                        <figure class="figure">
-                            <img src="img/dani.jpg" class="figure-img img-fluid rounded">
-                        </figure>
-                    </div>
-                </div>
-                <div class="col-md-5">
-                    <div class="header-content-right">
-                        <h1 class="display-3 font-weight-bold">DANIEL BARRERA</h1>
-                        <p class="mt-3 h3">
-                            Analista programador computacional | Desarrollador web | Freelance
-                        </p>
-                    </div>
+                <div class="col">
+                    <figure class="figure">
+                        <img src="img/responsive-banner.png" class="figure-img img-fluid rounded"  style="width:70%; display: block; margin: auto;">
+                    </figure>                
                 </div>
             </div>
         </div>
@@ -73,74 +69,85 @@
     </header>
 
     <!--titulos-->
-    <section id="testimonial" class="titulos">
+    <section id="tecnologias" class="fondo-seccion-oscuro testimonial">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="text-center"><strong>Acerca de mí</strong></h1>
+                    <h1 class="text-center"><strong>Tecnologías</strong></h1>
                 </div>
             </div>
-        </div>            
-    </section>
-
-    <section class="fondo-seccion-claro testimonial">
-        <div class="container">
-            <p class="h4 mb-5 align-middle font-italic">
-                Mi nombre es Daniel y tengo 30 años, soy analista programador titulado de INACAP en el año 2016 y me especializo en el desarrollo web. Para esto, estoy en constante aprendizaje, ya que de esta manera podré conocer y aplicar de la mejor manera posible todas las tecnologías necesarias para la creación de sitios webs con los más altos estándares de calidad y seguridad.
-            </p>
-        </div>
-    </section>
-
-    <!--titulos-->
-    <section id="informacion" class="titulos">
-        <div class="container">
-            <div class="row">
+            <div class="row mt-3">
                 <div class="col-md-12">
-                    <h1 class="text-center"><strong>Información</strong></h1>
+                    <p class="h4 mb-5 align-middle font-italic">
+                        Para Diseño Web tengo un amplio conocimiento en HTML5 y CSS3, creando páginas responsivas, es decir, que se adaptan a cualquier tipo de dispositivo. Además utilizo JavaScript para darle dinamismo y también utilizo plugin para agregar complementos necesarios, como un mapa que indica la ubicación.
+                    </p>
+                    <p  class="h4 mb-5 align-middle font-italic">
+                        En Programación Web tengo conocimiento avanzado en PHP y esto lo combino con AJAX y JSON para mostrar datos desde una Base de Datos usando el getor MySQL
+                    </p>
                 </div>
             </div>
-        </div>            
+        </div>
     </section>
 
-    <!--información-->
-    <section id="info-one" class="fondo-seccion-oscuro">
-      <div class="container">
-        <div class="row my-1">
-          <div class="col-md-6">
-              <div class="info-left">
-                    <h3 class="text-center"><strong>Sitios webs responsivos</strong></h3>
-                    <p class="h5">
-                        Un sitio web responsivo(responsive web deisgn), se refiere a la adaptación que tiene una página web a los diferentes dispositivos de los cuales se accede. Como por ejemplo: Celulares, IPads, tablets, laptop(notebook) o desde su computador de escritorio.
-                    </p>
-                    <p class="h5">
-                        Por lo general los sitios se diseñaban para ser vistos desde una desktop(computadora) o laptop y no se enfocaban al desarrollo para los dispositivos móviles siendo hoy en día lo más utilizado.
-                    </p>
-                    <p class="h5"> <a href="tecnologias.html" class="badge badge-light">Conoce más sobre las tecnologías que utilizo</a></p>
-              </div>
-          </div>
-          <div class="col-md-6">
-            <div class="">
-              <figure class="figure">
-                <img src="img/responsive.png" class="figure-img img-fluid rounded">
-              </figure>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- mi info -->
-    <section id="mi-info" class="fondo-seccion-blanco">
+    <!--front-end -->
+    <section id="frontend" class="fondo-seccion-claro aparecerderecha">
         <div class="container">
-            <div class="row">
+            <div class="row mb-5">
+                <div class="col-md-12">
+                    <h1 class="text-center"><strong>FRONTEND</strong></h1>
+                    <p class="h4 text-justify"> El frontend son todas aquellas tecnologías que corren del lado del cliente, es decir, todas aquellas tecnologías que corren del lado del navegador web, generalizandose mas que nada en tres lenguajes, Html , CSS Y JavaScript.</p>
+                </div>
+            </div>
+            <div class="row my-4">
+                <div class="col-md-3">
+                    <figure class="figure">
+                        <img src="img/html5.png" class="figure-img img-fluid rounded"  style="width:80%;">
+                    </figure>
+                    <h3 class="text-center"><strong>HTML5</strong></h3>
+                </div>
+                <div class="col-md-3">
+                    <figure class="figure">
+                            <img src="img/css3.png" class="figure-img img-fluid rounded" style="width:80%;">
+                        </figure>
+                    <h3 class="text-center"><strong>CSS3 </strong></h3>
+                </div>
+                <div class="col-md-3">
+                    <figure class="figure">
+                            <img src="img/javascript.png" class="figure-img img-fluid rounded"  style="width:80%;">
+                        </figure>
+                    <h3 class="text-center"><strong>JavaScript</strong></h3>
+                </div>
+                <div class="col-md-3">
+                    <figure class="figure">
+                        <img src="img/bootstrap-logo.png" class="figure-img img-fluid rounded"  style="width:80%;">
+                    </figure>
+                    <h3 class="text-center"><strong>Bootstrap</strong></h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--back-end -->
+    <section id="backend" class="fondo-seccion-blanco aparecerizquierda">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-12">
+                    <h1 class="text-center"><strong>BACKEND</strong></h1>
+                    <p class="h4 text-justify">El backend es la parte del desarrollo web que se encarga de que toda la lógica de una página web  funcione. Se trata del conjunto de acciones que pasan en una web pero que no vemos como, por ejemplo, la comunicación con el servidor.</p>
+                </div>
+            </div>
+            <div class="row mt-4">
                 <div class="col-md-6">
                     <figure class="figure">
-                        <img src="img/github.png" class="figure-img img-fluid rounded">
+                        <img src="img/php2.png" class="figure-img img-fluid rounded"  style="width:60%;">
                     </figure>
+                    <h3 class="text-center"><strong>PHP</strong></h3>
                 </div>
                 <div class="col-md-6">
-                    <h3 class="text-center"><strong> También utilizo GitHub</strong></h3>
-                    <hr>
-                    <p class="h5 align-middle">GitHub es una forja (plataforma de desarrollo colaborativo) para alojar proyectos utilizando el sistema de control de versiones Git. Se utiliza principalmente para la creación de código fuente de programas de computadora.</p>
+                    <figure class="figure">
+                            <img src="img/mysql.png" class="figure-img img-fluid rounded" style="width:60%;">
+                        </figure>
+                    <h3 class="text-center"><strong>MySQL</strong></h3>
                 </div>
             </div>
         </div>

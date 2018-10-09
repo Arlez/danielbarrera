@@ -8,6 +8,26 @@ $(function(){
 $(function(){
 
     window.sr = ScrollReveal();
+
+    sr.reveal('.aparecerabajo',{
+        duration: 2000,
+        origin: 'bottom'
+    });
+    sr.reveal('.aparecerderecha',{
+        duration: 2000,
+        origin: 'right',  
+        distance: '500px'
+    });
+    sr.reveal('.aparecerarriba',{
+        duration: 2000,
+        origin: 'top'
+    });
+    sr.reveal('.aparecerizquierda',{
+        duration: 2000,
+        origin: 'left',
+        distance: '500px'
+    });
+
     sr.reveal('.navbar',{
         duration: 2000,
         origin: 'bottom'
